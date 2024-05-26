@@ -24,4 +24,4 @@ df = pd.read_csv('World-happiness-report-2024.csv')
 # print(df[df['Ladder score'] > 7.5]) # выбор по условию
 # print(df.loc[56]) # выбор по индексу
 # print(df.iloc[56, 'Healthy life expectancy']) # выбор по индексу и столбцу
-print(df[df['Healthy life expectancy']>0.7].head()) # выбор по условию и вывод первых 5 строк
+print(df[df['Healthy life expectancy']>0.7].head() # выбор по условию и вывод первых 5 строк
